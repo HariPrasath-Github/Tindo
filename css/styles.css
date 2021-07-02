@@ -1,0 +1,149 @@
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+#title{
+    background-color: #FF616D;
+}
+
+.header{
+    font-family: "Montserrat-black";
+    font-size: 4rem;
+    line-height: 1.5;
+    
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 2.5 rem;
+}
+
+h3{
+    font-family: "Montserrat-Bold";
+}
+
+p{
+    color: grey;
+}
+
+.container{
+    padding: 3% 15%;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+.btn{
+    margin: 5% 3% 5% 0;
+}
+
+.phone{
+    width: 40%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.fas{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.fas:hover{
+    color:#ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color:#FF616D;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #FF616D;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    .phone{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    font-family: "Montserrat-Bold";
+    font-size: 4rem;
+    line-height: 1.5;
+    padding: 3% ;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+#footer{
+    text-align: center;
+}
+
+.footer-image{
+    padding-top: 5rem;
+    margin: 16px;
+    padding-bottom: 1rem;
+}
+
+.footer-title{
+   font-family: "Montserret-Bold";
+   font-size: 2rem;
+   line-height: 1.5;
+}
